@@ -1,0 +1,72 @@
+.gs-content{
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translateX(-50%);
+    width: 100vw;
+    max-width: 1440px;
+}
+.select-genres-container{
+    margin: 24px;
+}
+.select-genres{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.selected-genres{
+    display: flex;
+    flex-wrap: wrap;
+}
+.sg-header{
+    margin: 12px 0px 24px 0px;
+}
+.search-btn{
+    margin: 24px;
+    height: 48px;
+    width: 192px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.add-genre-btn{
+    background-color: rgba(52, 51, 51, 0.703);
+    color: rgba(211, 211, 211, 0.84);
+    height: 64px;
+    width: 172px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 4px;
+}
+.search-results{
+    display: flex;
+    flex-wrap: wrap;
+}
+.result-card{
+    margin: 12px;
+    width: 300px;
+    display: flex;
+    align-content: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    background-color: black;
+    padding: 12px 12px 35px 12px;
+}
+.title{
+    margin-top: 16px;
+    font-size: 24px;
+}
+.overview{
+    margin-top: 16px;
+    color: rgb(131, 131, 131);
+}
+.ratings{
+    margin-top: 4px;
+    color: rgb(212, 210, 210);
+    font-size: 20px;
+}
