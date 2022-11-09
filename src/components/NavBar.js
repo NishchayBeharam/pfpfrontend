@@ -1,4 +1,3 @@
-import ButtonA from '../components/ButtonA'
 import Logo from '../components/Logo'
 
 const NavBar = () => {

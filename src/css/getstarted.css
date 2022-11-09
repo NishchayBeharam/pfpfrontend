@@ -31,17 +31,26 @@
     background-color: white;
     color: black;
     cursor: pointer;
+    transition: 200ms ease-in-out;
+    border: 1px solid transparent;
+}
+.search-btn:hover{
+    transition: 200ms ease-in-out;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
 }
 .add-genre-btn{
     background-color: rgba(52, 51, 51, 0.703);
     color: rgba(211, 211, 211, 0.84);
     height: 64px;
-    width: 172px;
+    width: 160px;
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
     margin: 4px;
+    border-radius: 10px;
 }
 .search-results{
     display: flex;
@@ -69,4 +78,10 @@
     margin-top: 4px;
     color: rgb(212, 210, 210);
     font-size: 20px;
+}
+
+@media only screen and (max-width: 480px) {
+    .result-card{
+        width: 100vw;
+    }
 }
